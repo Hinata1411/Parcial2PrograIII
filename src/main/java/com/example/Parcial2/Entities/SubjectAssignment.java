@@ -6,7 +6,7 @@ import java.util.Date;
 
 @Entity
 @Table(name = "materias_asignadas")
-public class Subject_Assignment {
+public class SubjectAssignment {
         @Id
         @GeneratedValue(strategy = GenerationType.IDENTITY)
         private Long id;
