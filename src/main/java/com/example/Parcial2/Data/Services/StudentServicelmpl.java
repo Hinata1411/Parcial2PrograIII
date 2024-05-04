@@ -9,7 +9,7 @@ import java.util.List;
 
 //Me da error :(
 @Service
-public interface StudentServicelmpl implements StudentService {
+public class StudentServicelmpl implements StudentService {
 
     @Autowired
     private StudentDao studentDao;

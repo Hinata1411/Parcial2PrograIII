@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-public interface SubjectServicelmpl implements SubjectService {
+public class SubjectServicelmpl implements SubjectService {
 
     @Autowired
     private SubjectDao subjectDao;
